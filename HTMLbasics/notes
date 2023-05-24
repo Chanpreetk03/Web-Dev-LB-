@@ -1,0 +1,61 @@
+HTML basics 1:
+
+
+HYPERTEXT MARKUP LANGUAGE:
+A set of instructions using annotations and tags to define the content and give structure of page and to link it to other pages and sites.
+
+skeleton and basic building block:html
+appearance and formatting:css
+functionality:js
+
+an html doc is rendered by a web browser and then we see it as web page.
+
+html+css+js = full stack application
+
+Tags: a keyword/ annotation which tells your browser how to render different elements.
+its parts: opening and closing tag content
+not case sensitive
+two ways of opening html doc: browser and text editor  
+
+<h1> content</h1>
+OT           CT
+
+types of text    elements: blocks(p h1, list) and inline(em , strong , a)
+inline are used to differentiate parts of text
+we can customize the content in div tag
+break tag increases spacing by a line 
+empty tag(open and break in same line <br/>)
+difference between p and div 
+lists : unordered , order, description
+attributes:properties and features 
+all elements can have attributes. put in start bracket
+id and class can be applied to all the elements
+style tag can contain css part
+src in img
+href in a
+what happens when we close an empty tag?
+doctype tells your browser html v5 doc
+lang: tells content of web page in eng
+head: meta data of doc (data about data)
+    meta tag:info about web page(the lines of description if we see a page on google (some time ago it had keywords used by seo in google))
+    charecter set page description keywords author viewport
+    utf-8 is a type of character coding(variable encoding)(used by 90% sites so standard)
+    viewport: area on screen initial scale: zoom level
+    title 
+    comaptible by this version of edge(microsoft)
+body:actual content
+
+***
+The <dl> HTML element represents a description list. The element encloses a list of groups of terms (specified using the <dt> element) and descriptions (provided by <dd> elements)
+
+what happens if you close a self closing tag????
+
+UTF-8 does not use one byte all the time, it's 1 to 4 bytes.
+The first 128 characters (US-ASCII) need one byte.
+The next 1,920 characters need two bytes to encode. This covers the remainder of almost all Latin alphabets, and also Greek, Cyrillic, Coptic, Armenian, Hebrew, Arabic, Syriac and Tāna alphabets, as well as Combining Diacritical Marks.
+Three bytes are needed for characters in the rest of the Basic Multilingual Plane, which contains virtually all characters in common use[12] including most Chinese, Japanese and Korean [CJK] characters.
+Four bytes are needed for characters in the other planes of Unicode, which include less common CJK characters, various historic scripts, mathematical symbols, and emoji (pictographic symbols).
+https://en.wikipedia.org/wiki/UTF-8
+
+***
+
