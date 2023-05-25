@@ -89,3 +89,9 @@ for heading we use th as a good practice
 HTML basics - 3
 
 
+rowspan , colspan
+Colspan is used to make cell span over multiple columns.
+rowspan is used to make cell span over multiple rows.  
+caption??
+rowgroup
+hiding columns or rows
