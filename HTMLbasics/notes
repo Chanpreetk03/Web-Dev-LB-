@@ -95,3 +95,57 @@ rowspan is used to make cell span over multiple rows.
 caption??
 rowgroup
 hiding columns or rows
+
+
+
+******
+
+
+
+HTML basics - 4
+
+
+Hyperlink is made using anchor tag. 
+to call someone by using a link we use a tag. simply write the:
+<a href="tel:959215160">call</a> 
+and for mail so as the mailing app with the mail in to place:
+<a href="mailto:6kchanpreet@gmail,com">call</a> 
+so we can use url, call and mail.
+
+Bookmark
+lets say you have a very big page and you have to scroll so do we have a way to go another part directly rather than scrolling
+for smooth scrolling add css of scrolling smooth.
+
+What is class?
+
+div tag/division
+used to make classes and its a generic container.
+it helps in applying css and its a block tag.
+it can be appilied on anything pic, text, page etc
+span tag is same as div but an inline element
+div tag with inline is same as span with block?
+
+semantic tags
+they provide meaning to the content in them nav,article, aside,figure,header,footer.
+
+non semantic:div
+
+p v/s article v/s section
+
+article is independant data it can have multiple para in it.
+
+p just for para
+
+heading section, footer section, hero section
+good practice
+ 
+can we have multiple header tag?
+diff between header tag and h1?
+header in footer tag?
+
+nav tags only have links
+
+aside tag : for content on side. indirectly related to surrounding content.
+
+favicon
+
