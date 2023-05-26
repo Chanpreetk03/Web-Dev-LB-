@@ -1,0 +1,106 @@
+
+
+CSS BASICS
+
+
+
+CSS BASICS - 1
+html is skeleton/backbone (answers what? about a website(gives a meaning))
+css is looks(answers how?(how will the content look))
+colors,width,size, font-family,etc
+
+CSS - cascading style sheets
+properties of the website
+
+to style a website and format it and make it more beautiful.
+
+What are selectors in CSS?
+
+A way in which we select an element/elements. 
+in <style>
+    table{
+        color: aliceblue;
+    }
+</style>
+
+table is selector, color is property and aliceblueis valur what we want.
+
+SIMPLE SELECTOR 
+
+1) element selector: type/tag selectors
+<p>this is my para</p>
+so in style when we use p as the selector we are using a tag to change the value.
+All the para will for example have the same color as value given
+
+2) class selector:
+we dont want all the p to be of same color obviously same with pictures, tables.
+lets say we have 3 paragraphs and you want to color on two paras and not on the middle one.
+we open it using .classname{
+    properties:values
+}
+many elements can have the same class
+
+3)id selector:
+id is unique. no 2 students can have same ids(example)
+no two tags can have two same ids.
+to change about a specific tag
+we use it by:
+#idName{
+    properties:values
+}
+
+
+Psuedo-class selector:
+A keyword added to a selector that specifies a special state of selected elements 
+:hover (change when hover)
+many pseusdo classes(goooglee)
+
+
+Multiple selector:grouping selector
+table,tr,td{
+
+}
+this is a multiple selector
+
+Universal selector
+
+nested selectors
+
+attribute selectors
+
+How to add stylying to html?
+inline(style tag in opening bracket)(not that good practice)
+internal(style tag in head tag)
+external(link a sheet)(majority)(whatever was written in style tag)  
+
+
+Specifity:
+which property would be picked?
+element/ id/class
+!important is bad practice
+
+least specifity: tag
+then: class
+after class: id;
+after id : inline
+wherever you write !important that one is picked regardless
+
+
+BOX model in css:
+every element on pages is a rectangular box and have these properties:
+width,height, margin,border, padding
+
+margin is outermost and iteracts with diff divs
+
+space between a b and c 
+border is what we gave 1px solid black outerline
+
+then the space between border and content is padding
+
+then the width and height are of content.
+
+inspect mein dabba
+
+the automatic margin is 8 px
+
+
