@@ -103,4 +103,51 @@ inspect mein dabba
 
 the automatic margin is 8 px
 
+Colors in css:
 
+Hexadecimal(#fff)
+all values go from 00 to ff
+1st one is r 
+2nd is green
+3rd is blue
+(#rrggbb)
+
+RGB colors:
+rgb(__ , __ , __)
+every one values goes from 0 to 255
+4th value is opacity (called alpha value)
+140 color are pre defined
+
+Font:
+Font family:
+font-height:
+font style:
+emphasis and importance:
+how to add ext fonts
+
+box sizing.
+
+if your width and height are strict what will happen if content increases.
+
+
+Units in CSS
+What is px?
+pixel we discuss is css px other is hardware open
+
+we discuss = 1/ 96 inch
+1)Absolute units:
+mm, cm, in ,px(here its fixed)
+high resolution divce means more hardware pixels(more hardware pixels in an area.)
+
+Percentage unit:
+div(width 10%)
+jo bhi parent hoga the width would apply wrt that
+
+Relative units:
+viewport
+vw:1/100*width of viewport
+vh:1/100*heigth of viewport
+
+relative unit to font size
+em: 1 em = 1* parent font size
+rem: relative to root(relative to html)
