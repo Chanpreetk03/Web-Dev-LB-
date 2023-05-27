@@ -1,0 +1,11 @@
+.boxx{
+    background-color: aqua;
+    /*transform: translate(100px, 50px);
+    -webkit-transform:;
+    -moz-transform:;
+    -ms-transform:;
+    -o-transform:;
+    *//*transform:rotate(45deg) ;
+    *//*transform: scale(2,1);
+    */transform:skew(135 deg) ;
+}
