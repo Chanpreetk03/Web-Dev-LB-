@@ -151,3 +151,62 @@ vh:1/100*heigth of viewport
 relative unit to font size
 em: 1 em = 1* parent font size
 rem: relative to root(relative to html)
+
+
+
+**********
+
+
+
+CSS basics - 3
+
+
+
+Gradients: we shift from one color to another.(smooth transition)
+linear( goes up, down left-right, diagnally)
+, radial(elliptical or circular form)
+, conic()
+
+default top to bottom
+last statement gets picked and rest are over ridden.
+
+Shadow effit:
+Text , box
+
+text will atleast have 2 values horizontal, vertical
+1st is horizontal value next vertical the next blur 
+we can apply multiple shadows too.
+in box in default condition color of text is the color of shadow.
+spread attribute.
+
+DIMENSION properties:
+width , height , min/max
+
+max height and max width define the height and width after which if the content is added it will overflow(scroll , hidden , auto, visible)
+
+if the height and width is less than min one's then the box will be of min one's size otherwise it'll increase
+
+
+CSS position property
+
+static: things are positioned as they are entered(default)
+
+relative:(to its relative position) setting top, right, left , bottom
+
+fixed
+
+absolute
+
+sticky
+
+CSS TRANSFORMS
+translate()
+rotate()
+scaleX()
+scaleY()
+scale()
+skewX()
+skewY()
+skew()
+skew()
+matrix()
