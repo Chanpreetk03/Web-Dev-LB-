@@ -241,10 +241,13 @@ Consider you have a box and it has A written in it.
 Move the A to top-left corner top-right corner, bottm-left corner,bottom-right corner , center 
 justify content center and align content center
 
-Flex item properties:
+<!-- Flex item properties:
 order
 flex-grow
 flex shrink
 flex basis
 flex
-align self
+align self -->
+doubts!!!!
+
+
