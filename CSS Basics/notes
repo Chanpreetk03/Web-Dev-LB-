@@ -210,3 +210,41 @@ skewY()
 skew()
 skew()
 matrix()
+
+
+
+*********
+
+
+
+
+
+CSS BASICS  - 3
+
+Flexbox
+1d lay out model used for space distribution and use its alignment capabilities too.
+
+all elements in the main body are called child or flex items 
+horizontal is main axis and cross is vertical axis 
+most famous
+
+Flex container properties:
+
+flex direction
+flex wrap
+flex flow
+justify content
+align items
+align content
+
+Consider you have a box and it has A written in it.
+Move the A to top-left corner top-right corner, bottm-left corner,bottom-right corner , center 
+justify content center and align content center
+
+Flex item properties:
+order
+flex-grow
+flex shrink
+flex basis
+flex
+align self
