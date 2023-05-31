@@ -271,3 +271,28 @@ grid-col-start
 grid-col-ed
 grid-row-start
 grid-row-end
+
+
+
+IMAGE GALLERY PROJECT
+
+Heading with h1/h2 and use text align property to make it center
+Now images:
+all have different dimensions but have same size on page
+on hover they become colored and also has shadow and we use figure tag as we also have to add caption. without hover it is black and white without shadow.
+this page is also responsive.
+the space between images is also equal(gap,space between,etc)
+on hover we also have gradients from bottom of black color.
+the caption is also visible only on hover. the images are centered.
+three images in one line
+images also have rounded corners. and there is a transition when the image changes from black and white to colored.
+when we hover the size of image also increases same with txt.
+
+the background color is also set.
+there is a favicon also.
+the title is my gallery.
+overflow on x is hidden (not scroll in right)
+the size of container is also set
+font family 
+
+
