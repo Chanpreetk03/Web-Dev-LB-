@@ -1,0 +1,17 @@
+.contaner{
+    background-color: brown;
+    border: 3px solid black;
+    height: 500px;
+    display: grid;
+    /* grid-template-columns: 200px 210px 250px; */
+    grid-template-columns: repeat(3,1fr);
+    /* grid-template-rows: 90px 90px 90px 90px; */
+    grid-template-rows: repeat(4 1fr);
+}
+
+.box{
+    background-color: aqua;
+    border: 3px solid black;
+    width: 80px;
+    height: 80px;
+}

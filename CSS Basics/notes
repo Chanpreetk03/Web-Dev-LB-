@@ -260,4 +260,14 @@ grid
 flexbox is related to content 1d
 grid is to layout 2d
 
-3 col 2 row
+grid is a 2d layout 
+space between rows is called row gap and between two cols is col gap.
+gaps are also called gutters
+flexbox is how content flows and grid is layout
+
+fr is also a unit
+
+grid-col-start
+grid-col-ed
+grid-row-start
+grid-row-end
