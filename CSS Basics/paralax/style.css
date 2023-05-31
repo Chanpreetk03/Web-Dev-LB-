@@ -51,3 +51,56 @@ h1{
     letter-spacing: 4px;
     text-shadow: 0 0 10px rgba(0,0, 0, 3);
 }
+
+section{
+    background-color: rgb(45,45,45);
+    color: white;
+    padding: 5rem 0;
+}
+
+.bg1{
+    background-image: url(sport-1.jpg);
+}
+
+.bg2{
+    background-image: url(sport-2.jpg);
+}
+
+.bg3{
+    background-image: url(sport-3.jpg);
+}
+
+.secHeading{
+    font: 5rem;
+    padding: 0 10rem;
+}
+
+.text{
+    font-size:1.5rem ;
+    padding: 0 10rem;
+    margin: 5rem 0;
+}
+
+.bg{
+    position: relative;
+    width: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}  
+.desc{
+    position:absolute;
+    background-color: white;
+    padding:0.5 rem 2.5 rem;
+    top: 50%;
+    left: 40%;
+    transform: translateX(-50%) translateX(50%);
+    -webkit-transform: translateX(-50%) translateX(50%);
+    -moz-transform: translateX(-50%) translateX(50%);
+    -ms-transform: translateX(-50%) translateX(50%);
+    -o-transform: translateX(-50%) translateX(50%);
+    color: black;
+    font-size: 3.5rem;
+    font-weight: 600;
+} 
