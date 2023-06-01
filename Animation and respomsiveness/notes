@@ -13,4 +13,10 @@ Grid area:
 the numbers written in front of grid=column-start and such properties are the number of lines.
 the gaps are called lines
 
+now rather than using different commands for row and col start and end we csn also use grid-area
 
+
+
+grid-area:grid-row-start/grid-column-start/grid-row-end/grid-column-end
+
+grid-template-area: in this we name rows and colums and then create our layout
