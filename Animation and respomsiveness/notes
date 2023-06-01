@@ -19,4 +19,7 @@ now rather than using different commands for row and col start and end we csn al
 
 grid-area:grid-row-start/grid-column-start/grid-row-end/grid-column-end
 
-grid-template-area: in this we name rows and colums and then create our layout
+grid-template-area: in this we name rows and colums and then create our layoutdoub
+
+doubt on grid template
+
