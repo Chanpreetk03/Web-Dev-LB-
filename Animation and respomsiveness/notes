@@ -1,0 +1,16 @@
+ANIMATION AND RESPONSIVENESS
+
+CLASS - 1
+
+What is responsiveness?
+
+A design of webpage with which it looks good on all devices.
+laptop, phone, ipad, tablet etc.
+display:grid;
+
+Grid area:
+
+the numbers written in front of grid=column-start and such properties are the number of lines.
+the gaps are called lines
+
+
