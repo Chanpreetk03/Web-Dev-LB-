@@ -73,5 +73,15 @@ transition function
 transition delay
 transition property
 
+transition: property duration transition-timing-function transition-delay
+
 Animation and keyframes:
+animation nameduration
+iteration count
+fill-mode
+timing-function
+delay
+direction
+
+we use keyframes to tell about starting ending and intermediate states of animation
  
