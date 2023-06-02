@@ -61,4 +61,17 @@ Variables:same as any lang
 like you have a colour which has to be written everywhereyou can declare a varible.
 
 to use it in the complete file declare it globally in the root.
-scope of variable 
+scope of variable.
+why use root variable in root not universal selector? 
+
+--var_name:value
+property:var(var_name)
+
+Transitions in css:
+transition timing
+transition function
+transition delay
+transition property
+
+Animation and keyframes:
+ 
