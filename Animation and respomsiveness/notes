@@ -23,3 +23,13 @@ grid-template-area: in this we name rows and colums and then create our layoutdo
 
 doubt on grid template
 
+Media queries
+dont use for responsive sites:px
+use :vh % rem
+basically like if else if site is larger than this or less than this 
+on differnt devices using breakpoint
+
+USING FLEX AND GEID TOGETHER
+
+NESTED GRIDS
+
