@@ -1,4 +1,4 @@
-ANIMATION AND RESPONSIVENESS
+ANIMATION and RESPONSIVENESS
 
 CLASS - 1
 
@@ -33,3 +33,32 @@ USING FLEX AND GEID TOGETHER
 
 NESTED GRIDS
 
+fr unit
+repeat function
+grid-auto-rows
+
+
+
+********
+
+
+
+ANIMATION 
+moving objects 
+it lets an element change from style 1 to style 2 graduallly.
+Functions in css
+
+basically a block of code in which you give output which gives an output
+For eg(rbb,repeat,scale,translate)
+
+
+function:
+calc() it solves the expression and gives the value
+min(),max()
+
+
+Variables:same as any lang
+like you have a colour which has to be written everywhereyou can declare a varible.
+
+to use it in the complete file declare it globally in the root.
+scope of variable 
