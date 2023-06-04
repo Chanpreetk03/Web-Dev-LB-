@@ -89,6 +89,15 @@ a{
     user-select:none ;
     font-size: 7rem;
     color: rgb(231, 231, 231);
+    position: absolute;
+    bottom: -16%;
+    left: 5%;
+    font-weight: bold;
+    transition: all 3s;
+    -webkit-transition: all 3s;
+    -moz-transition: all 3s;
+    -ms-transition: all 3s;
+    -o-transition: all 3s;
 }
 
 .hero-section-left{
@@ -168,3 +177,167 @@ a{
 
 }
 
+.hero-section-right{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+}
+
+.user-image{
+    padding: 2.5rem;
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    animation: scaleImage 5s linear infinite;
+    -webkit-animation: scaleImage 5s linear infinite;
+}
+.user-image img{
+    z-index: -9;
+}
+
+@keyframes scaleImage {
+    0%{
+        filter: grayscale(0);
+        -webkit-filter: grayscale(0);
+        transform: grayscale(1);
+        -webkit-transform: grayscale(1);
+        -moz-transform: grayscale(1);
+        -ms-transform: grayscale(1);
+        -o-transform: grayscale(1);
+}
+    50%{
+        transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        -o-transform: scale(1.1);
+        filter: grayscale(0);
+        -webkit-filter: grayscale(1);
+        box-shadow: 3px 3px 10px black;
+}
+    100%{
+        transform: scale(1);
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+        filter: grayscale(1);
+        -webkit-filter: grayscale(0);
+}
+}
+
+.icon-dots{
+    z-index: 9;
+    bottom: -1rem;
+    right: 0;
+    animation: dotsAnimation 1s infinite;
+    -webkit-animation: dotsAnimation 1s infinite;
+}
+
+@keyframes dotsAnimation{
+    0%{
+        transform: translateY(0px);
+        -webkit-transform: translateY(0px);
+        -moz-transform: translateY(0px);
+        -ms-transform: translateY(0px);
+        -o-transform: translateY(0px);
+}
+50%{
+    transform: translateY(-15px);
+    -webkit-transform: translateY(-15px);
+    -moz-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    -o-transform: translateY(-15px);
+}
+100%{
+    transform: translateY(0px);
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    -o-transform: translateY(0px);
+}
+}
+
+.icon-cube{
+    z-index: 9;
+    right: 1em;
+    top: -0.8em;
+    animation-name: cubeRotate;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes cubeRotate {
+    0%{
+        transform: rotate(0deg) translateY(0px);
+        -webkit-transform: rotate(0deg) translateY(0px);
+        -moz-transform: rotate(0deg) translateY(0px);
+        -ms-transform: rotate(0deg) translateY(0px);
+        -o-transform: rotate(0deg) translateY(0px);
+}
+50%{
+    transform: rotate(180deg) translateY(-12px);
+    -webkit-transform: rotate(180deg) translateY(-12px);
+    -moz-transform: rotate(180deg) translateY(-12px);
+    -ms-transform: rotate(180deg) translateY(-12px);
+    -o-transform: rotate(180deg) translateY(-12px);
+}
+100%{
+    transform: rotate(360deg) translateY(0px);
+    -webkit-transform: rotate(360deg) translateY(0px);
+    -moz-transform: rotate(360deg) translateY(0px);
+    -ms-transform: rotate(360deg) translateY(0px);
+    -o-transform: rotate(360deg) translateY(0px);
+}
+}
+
+.icon-circle{
+    z-index: 9;
+    left: 0;
+    bottom: 0;
+    animation-name: shakeEffect;
+    animation-duration: 6s;
+    animation-timing-function: liner;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shakeEffect {
+    50%{
+        left: 5%;
+        bottom: 10%;
+    }
+}
+
+.icon-zigzag{
+    z-index: 9;
+    top: 1.5rem;
+    left: -0.3em;
+    animation: zigzagAnimation 5s ease-in infinite ;
+    -webkit-animation: zigzagAnimation 5s ease-in infinite ;
+}
+@keyframes zigzagAnimation {
+    50%{
+        left: 5%;
+        top: 2%;
+    }
+}
+
+.icon-plus{
+    z-index: 9;
+    top: -0.8rem;
+    left: 50%;
+    animation:plusAnimation ;
+    -webkit-animation:plusAnimation 5s ease-in infinite;
+}
+@keyframes plusAnimation {
+    50%{
+        left: 48%;
+        top: 3%;
+    }
+}
