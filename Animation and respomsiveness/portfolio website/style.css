@@ -682,3 +682,8 @@ a{
 .skill-subheading p{
     margin: 15px 0;
 }
+
+.contactus-form-container{
+    width: 100%;
+    background: rgb(231, 231, 231);
+}
