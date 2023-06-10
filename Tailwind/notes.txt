@@ -6,3 +6,14 @@ TAILWIND CSS
 
 Pre defined class.  and made components. not external css sheet required.
 with media queries and 
+speed of code is also fast.
+
+framework is a tool which makes our work easier.
+to convert a simple nav bar to flex in plain css we have to first create a class then in the style tag or in the external css sheet we have to declare the tag and say display:flex
+in tailwind you simply say that the class is flex class="flex"
+
+if we use cdn we dont get suggestions
+
+another way to use tailwind is called post css here we also get suggestions
+
+you can also go to github thepranaygupta/html*tailwind-css-starter-pack
