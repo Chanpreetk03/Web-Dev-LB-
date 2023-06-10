@@ -16,4 +16,4 @@ if we use cdn we dont get suggestions
 
 another way to use tailwind is called post css here we also get suggestions
 
-you can also go to github thepranaygupta/html*tailwind-css-starter-pack
+you can also go to github thepranaygupta/html*tailwind-css-starter-pack 
