@@ -1,0 +1,8 @@
+TAILWIND CSS
+
+
+
+
+
+Pre defined class.  and made components. not external css sheet required.
+with media queries and 

@@ -88,4 +88,18 @@ we use keyframes to tell about starting ending and intermediate states of animat
 
  PORTFOLIO WEBSITE
 
-  
+
+
+
+UnWrap class:mordern chair project
+
+we see an image of chairwe see heading and headings
+and somethings in between then at end in button
+when we click on detail we see some different stuff and defult is description
+
+when we click on another color the background and the image both change .
+with animation and buttons also change
+
+the background also has gradient and the image of chair changes when we color of chair
+
+it also is responsive
