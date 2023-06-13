@@ -17,3 +17,12 @@ if we use cdn we dont get suggestions
 another way to use tailwind is called post css here we also get suggestions
 
 you can also go to github thepranaygupta/html*tailwind-css-starter-pack 
+
+we use the group property when the child depends on the parent element
+
+Something to notice :
+when we work on the top level div(the div which has all the content in it) we work on its dimension properties like margin padding width height etc
+we set the dimensions first.
+
+the difference between border ans stroke is:
+when we apply border the dimensions of the content is lessened and in the case of stroke the outer area is used for border.
