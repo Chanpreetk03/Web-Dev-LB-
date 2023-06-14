@@ -21,3 +21,32 @@ console.log(a);
 // console.log(con)
 a="name";
 console.log(a);
+
+let num=10;
+console.log(num);
+console.log(num++);
+console.log(++num);
+console.log(num--);
+console.log(--num);
+
+let num1=5;
+let num2=10;
+let ans1=(++num1)*(--num2);
+let ans2=(num1++)*(--num2);
+let ans3=(num1++)*(num2--);
+let ans4=(++num1)*(num2--);
+
+console.log(ans1,ans2,ans3,ans4);
+
+let number=2;
+switch(number){
+    case 1:console.log('A');
+    break;
+    case 2:console.log('B');
+    break;
+    default:console.log('C');
+}
+
+for(let i=0 ; i<5 ;i++){
+    console.log(i);
+}

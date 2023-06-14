@@ -92,6 +92,7 @@ let person{
     lastName:"kaur",
     age:20
 };
+here firstName is property and "chan" is object literal
 
 the person is the name of object
 ways to access the values in them.
@@ -107,3 +108,109 @@ names[0]
 names[3]="rahul"
 to add
 names[1]=1 will over-ride
+
+
+OPERATORS
+-Arithmetic(+ - * / % ** ++ -- )
+-Assignment(= , += , -= ,*= ,/=)
+-Comparison(<,>,<=,>= , == === !==)
+-Bitwise(>> , << & | ~ ^)
+-Logical( && || !)
+
+pre/post inc/dec
+++x
+x++
+--y
+y--
+
+in pre we first change the value then use it
+in post we first use the value then change it
+
+equality :
+loose and strict
+== just checks the value and not datatype
+=== checks both
+
+Ternary operator:
+condition ? value1:value2;
+
+1st will be executed if true
+
+Logical operators on non-booleans
+concept of false and true
+(false || "love")
+
+the answer will be "love"
+falsy and truthy values
+falsey values are: false, undefined,null," ".Nan(not a number)
+truthty:anything that is not falsey
+
+(false || 5 ||1)
+first is a falsey value the other two are truthy and the answer is 5
+or has a concept of short circuiting
+if we have gotten a truthy value we just print it
+
+doest the concept of falsey and truthy work in and 
+and (false && 5 && 1) (true && 5 && 1)
+
+if we do 2 &3
+we get 2
+2|3
+we get 3
+
+
+Operator precedence
+
+let c=a+b*d/e
+
+we use brackets so as to elimanate the need to remember the table
+
+
+CONDITIONALS
+
+if(){}
+else if(){}
+else{}
+
+SWITCH
+
+switch(expression){
+    case:
+    case:
+    case:
+    default:
+}
+
+In this break is very important
+breaks the control execution flow
+
+
+LOOPS
+-for loop
+-while
+-do-while
+-infinite
+-for-in
+-for-of
+
+for:
+for(initialization,condition,updation){
+    clg(i)
+}
+
+for(let i=0 ; i<5 ; i++){
+    clg(i);
+}
+ans 0 1 2 3 4
+initialize
+while(condition){
+    updation;
+}
+
+in do-while:
+initialize
+do{
+    code
+    update
+}while(condition)
+this executes atleast once in any scenario
