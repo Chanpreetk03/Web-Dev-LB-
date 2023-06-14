@@ -33,3 +33,77 @@ comment is a line which is not executed
 
 best practice we make a different file for js stuff
 and link html and js
+
+Do we need active internet connection to use console in web browser
+JAVA V/S JAVASCRIPT
+
+Variable:
+named memory location is called variable
+
+we can use let and var to create var in js
+JS is dynamically typed language and hence we dont we need to tell it the type of datatype
+
+variable name : var a=10
+a is the variable name
+
+the difference between var and let is the scope of variables.
+the scope of variable made using let is in the code block it was made in.
+we can not redeclare the let variables.
+the variable made using var is global
+
+const a=5
+fixed value
+this one also jst works in its own scope
+
+the rules of variable naming:
+-not a reserved keyword
+-they should be meaningful
+-can not contain " " or hyphen"-"
+-cant start with numbers
+-use camelCasing
+
+PRIMITIVE DATA TYPES:
+-string (sequence of characters "lojkl")
+-number(1,2,3 all types int float etc)
+-bool(true or false)
+-null(empty )
+-undefined(something which has not been defined let a; clg(a); in c++ this gives garbage value in js it gives undefined)
+
+DYNAMIC TYPING
+
+in c++ you cant 
+int a=5 
+a="babbar"
+
+
+in js you can
+let a=5
+a=babbar
+
+REFERENCE TYPE DATA TYPES
+
+OBJECTS(multiple variables linked in ways we can make them objects using a class)
+ARRAYS(list of (similar kind of )items data-structures in js there can be different types of items)
+FUNCTION
+
+How to make objects:
+let person{
+    firstname:"chan",
+    lastName:"kaur",
+    age:20
+};
+
+the person is the name of object
+ways to access the values in them.
+person.age()
+person['age']  why??
+
+How to make arrays:
+let names=['love' , 'af' ,'husk']
+
+to access the values of array we use index
+names[0]
+
+names[3]="rahul"
+to add
+names[1]=1 will over-ride
