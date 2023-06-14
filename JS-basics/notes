@@ -1,0 +1,35 @@
+JS BASICS 
+
+
+
+CLASS 1
+html is used to make skeleton(what?)
+css is used for style(appearance)
+JS is used for behaviour and functionality
+
+take your hand for example: the bones is html the skin is css and moving your hand is js
+
+What is Javascript?
+its a light weight programming language 
+it can also be called scripting language
+
+client side scripting language.
+to run js we need js engine(an enviornmen t with which we use to run js)
+
+then it was added in c++ programme called node and hence it can also be used server side.
+the the computer which sends you data is server.
+the print statement is consol.log("")
+
+console is a tool in web to log and print info
+
+script can be added in head tag too
+but the best practice is for script tag to added at the end of body
+so user experience ko achha karne ke liye we put it at end.
+
+everything in '' is called string.
+collection of characters
+semi colon is used to end the line
+comment is a line which is not executed
+
+best practice we make a different file for js stuff
+and link html and js
