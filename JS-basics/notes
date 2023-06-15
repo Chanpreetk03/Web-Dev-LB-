@@ -217,9 +217,65 @@ this executes atleast once in any scenario
 
 
 
-
+****************************
 
 
 CLASS-2
+
+
+What are objects?
+
+We saw that many variables/functions were linked to to one another.
+
+so object is an entity which has some properties and some behaviours.
+
+How to create objects in JS.
+
+const Rect={
+    len:1,
+    width:2
+}
+collection of keyValue pairs
+
+{} - object literals.
+
+let a={} empty object
+
+function is a sub programme which performs  well defined task
+if a function is created in an object its called method.
+
+We are doing oops here object oriented programming
+
+lets say we need more rectangles we cant copy that code again and again
+it can lead to bulking of code, bugs
+
+So how to create objects?
+-factory function(jiske andar object bante hai aur milte hai)
+here you put a request for creation of function (calling a function) and the response is the object(return)
+function createObj(){
+    return object
+}
+let obj=createObj()
+
+-construction function
+
+here we follow pascal notation:
+first letter of every word is capita
+camel : numberOfStu
+pascal: NumOfStu
+
+this keyword refers to your current object
+constructor function does nothing but initialize your properties.
+in JS the new keyword which gives you an empty object
+
+Dynamic nature of objects
+we can add and remove properties 
+
+Constructor property
+object in js have a property called constructor which tells you how your object was created
+
+
+What is the constructor of the constructor
+
 
 
