@@ -348,5 +348,49 @@ let name=new String("abc");
 If we apply a dot  with a normal string it becomes a object.
 
 
+TEMPLATE LITERAL 
+\ 
+some characters can't be shown in strings to show them we use \n, etc
+another way is template literal
+jaisa likha hai waise milega
+we can also use placeholders using object literal
+
+-DATE AND TIME
+we have 5 ways to create date
+
+When we use a function to set a value its called setter.
+likewise when we use a function to get a value its called getter.
+
+
+-ARRAYS 
+a refernce type
+an object
+collection of items(can be different)
+
+-adding
+at end: .push
+at start:.unshift
+in between: .splice(a,b,[c])
+[c]:all you wanna enter
+a: at the index you wanna insert
+b:number of characters you wanna delete
+
+-finding
+.indexOf , .includes
+these work properly with primitives, but with reference they dont
+because in these addresses would be compared, and not value.
+so we have a different methods for these 
+-removing
+-splitting
+-combining
+
+
+we access the elements using indexes.
+num[0] : element at the index 0 in the array num
+
+
+
+
+
 
 
