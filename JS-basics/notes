@@ -318,4 +318,35 @@ let dest ={...src};
 
 GARBAGE collection
 finds variables and constants which are not in use automatically.
-WE have no controol this
+WE have no control this
+
+
+
+******
+
+
+
+CLASS-3
+
+IN-BUILT OBJECTS 
+
+-Math:
+In built object which has properties and Functions
+
+Math.random() generates random number between 0-1
+Math.PI() gives value of pi (3.14)
+Math.round(x) round offs x 
+
+Math.min() gives min between numbers
+Math.abs() gives absolute number mod of the number
+
+
+-string
+in js we have 2 types of string primitive and object 
+
+let name=new String("abc");
+If we apply a dot  with a normal string it becomes a object.
+
+
+
+
