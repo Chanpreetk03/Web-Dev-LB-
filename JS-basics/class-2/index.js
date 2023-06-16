@@ -46,4 +46,26 @@ rectObj.color='yellow';
 
 delete rectObj.color
 
-//What is the constructor of Rectangle
+//What is the constructor of Rectangle 
+
+let ReactangleA= new Function(
+    'length','breadth',
+    `this.length=length;
+    this.breadth=breadth
+    this.draw=function(){
+        console.log("draw");
+    }`
+);
+
+let newRec=new ReactangleA(2,3);
+
+newRec.length();
+
+
+let a=10;
+
+function let(a){
+    a++;
+}
+
+console.log(a);

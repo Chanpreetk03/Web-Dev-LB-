@@ -271,11 +271,51 @@ in JS the new keyword which gives you an empty object
 Dynamic nature of objects
 we can add and remove properties 
 
-Constructor property
+Constructor property 
 object in js have a property called constructor which tells you how your object was created
 
 
 What is the constructor of the constructor
+Intern ally js has a constructor which is used to make these constructors
+
+Functions are OBJECTS
+objects are something which have properties and behaviours.
+
+A function named rectangle also has properties and methods
+
+TYPES IN JS
+-primitive(number , string,bool,undefined,null)
+let a=10;
+let b=a;
+a++  (a=11 b=10)
+here a copy is created
 
 
+-reference(functions,objects,arrays)
+let a={value:10}
+let b=a;
+a.value++; (a.value=11 b.value=11)  why same here?
 
+a is an obj with value 10 and b is equated to it.
+Now when we equate t simply, the address is passed.
+for eg the address of a is 1000 now the address of b is also 1000.
+hence they are same block
+they point to same block
+
+
+PRIMITIVES ARE COPIED BY THERE VALUE AND REFERENCES ARE COPIED BY THIER REFERENCE
+
+pass by value: when you pass a primitive to a function there copy is created in that function
+
+
+OBJECT CLONING
+-iteraation
+-assign
+let dest=object.assign({} , src)
+-spread
+let dest ={...src};
+
+
+GARBAGE collection
+finds variables and constants which are not in use automatically.
+WE have no controol this
