@@ -136,3 +136,27 @@ console.log(parts);
 
 let joined2=parts.join("_");
 console.log(joined2);
+
+let arr=[4,5,9,2,3,1];
+arr.sort();
+console.log(arr);
+
+arr.reverse()
+
+//filtering
+
+// let filtered=arr.filter(function(value){
+//     return value>=4;
+// });
+
+let filtered=arr.filter(value => value>=4);
+console.log(filtered);
+
+//mapping
+
+let newArr=[7,8,9,10,11];
+let items=newArr.map(value=>{"student_no:"+value;
+});
+
+console.log(items);
+

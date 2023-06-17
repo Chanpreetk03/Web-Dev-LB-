@@ -415,7 +415,17 @@ forof loop
 
 -Joining arrays
 
+-SOrting array
 
+-Filtering Arrays
+.filter()
+
+-Mapping Arrays
+maps each element of array with something else.
+in ascii table 'a' is mapped to 97.
+(example)
+
+-Mapping with objects
 
 
 
