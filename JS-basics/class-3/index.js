@@ -53,3 +53,86 @@ let courses=[
     {no:2 , name:'babbar'}
 ];
 console.log(courses);
+
+//find reference types
+
+// let course=courses.find(function(course){
+//     return course.name=='love'
+// })
+
+// console.log(course);
+
+//making the above function more readable
+
+// let course=courses.find((course)=>{
+//     return course.name=='love'
+// })
+
+//this one is just for arrow function with 1 argument
+
+let course=courses.find(course=> course.name=='love');
+
+
+//removing
+
+//end
+numbers.pop();
+console.log(numbers)
+
+//begin
+numbers.shift();
+console.log(numbers);
+
+//middle
+numbers.splice(2,1);
+
+numbers=[];
+let numbers2=numbers;
+
+numbers.length=0;
+
+//combining
+
+let first=[1,2,3];
+let sec=[4,5,6];
+
+let combined=first.concat(sec);
+console.log(combined);
+let combined2=sec.concat(first);
+console.log(combined2);
+
+//slicing
+
+let sliced=combined.slice(2,4);
+console.log(sliced);
+
+//combining using spread operator
+
+let fir=[1,2,3,4];
+let second=[5,6,7,8];
+
+let comb=[...fir,...second];
+console.log(comb);
+
+let another=[...comb];
+
+//iteration
+//for of loop
+for (const it of another) {
+    console.log(it);
+}
+
+//for each loop
+
+//joining arrays
+
+let joined=numbers.join(',');
+console.log(joined);
+
+//split the joined
+let messag="this is new";
+let parts=messag.split(" ");
+console.log(parts);
+
+let joined2=parts.join("_");
+console.log(joined2);

@@ -379,16 +379,41 @@ b:number of characters you wanna delete
 .indexOf , .includes
 these work properly with primitives, but with reference they dont
 because in these addresses would be compared, and not value.
-so we have a different methods for these 
+so we have a different methods for these: callback functions
 -removing
+end:pop()
+begin:shift()
+middle:splice(index,count_ofele_toDel)
+-emptying an array:1) numbers=[](garbage collector kar dega)
+but this one is not good, it has an issue. if after emptying, you equate another variable to deleted array, you will find that it gives the previous result. hence it doesn't work.
+2)numbers.length=0;
+this works best
+3)you can also splice. numbers.splice(0,numbers.length)
+4)numbers.pop():but not good practice
 -splitting
+.slice(indexOfStart,indexOfEnd+1);
+.slice():make a copy of original array
+
 -combining
+let combined=first.concat(second)
 
 
 we access the elements using indexes.
 num[0] : element at the index 0 in the array num
+callback function:
+you have to execute an function but to execute it, you need some values which will be given by another function. this other function is called callback function.
+A callback function is a function passed into another function as an argument, which is then invoked inside the outer function to complete some kind of routine or action.
 
 
+SPREAD OPERATOR
+...
+
+it can be used for combining and copying
+
+-ITERATING AN ARRAY
+forof loop
+
+-Joining arrays
 
 
 
