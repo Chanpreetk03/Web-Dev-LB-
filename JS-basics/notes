@@ -429,3 +429,16 @@ in ascii table 'a' is mapped to 97.
 
 
 
+******
+
+
+CLASS-4
+
+FUNCTIONS
+A block of code which fulfills a specific task
+function print_A(arguments){
+    code
+}
+
+
+
