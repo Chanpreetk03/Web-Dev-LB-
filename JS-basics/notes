@@ -88,7 +88,7 @@ FUNCTION
 
 How to make objects:
 let person{
-    firstname:"chan",
+    firstName:"chan",
     lastName:"kaur",
     age:20
 };
@@ -440,5 +440,58 @@ function print_A(arguments){
     code
 }
 
+Why do we need functions?
+reusability
+easy debugging
+more readable
+less bulky
+
+Methods of creating/defining function
+1)
+function print_A(arguments){
+    code
+}
+here print_a is the name of function
+and arguments are input parameters
+{} code bock/curly braces
+code is the body of function
+'function' is a key word
+
+In js even if you call/invoke a function before it is written it works.
+before executing any code all the js engine sends it to the top.
+Hoisting is the process of moving function declaration to the top of file which is done automatically by JS engine.
+
+functions can also be assigned to variables called function assignment
+but then you can't use the name of the function.
+
+if we dont name the function while function assignment(function name not given variable name given) is called anonymous function assignment.
+
+JS engine is firefox is spider monkey
+ 
+if for ex you dont give a number while adding 2 numbers the answer is NaN due to one of them being undefined
+
+Js has a special object called arguments.
+
+
+REST OPERATOR
+rest parameter must be last parameter
+...args: makes an  arr of all the arguments.
+
+DEFAULT PARAMETERS
+sometimes when user does not pass a value we use default value
+also used for the last argument.
+all the parameters to the left of default are to be default too
+the hack is to pass undefined.
+this is bad practice.
+
+you access properties using getter
+you change/mutate properties using setter
+
+TRY AND CATCH
+
+
+SCOPE
+
+REDUCING AN ARRAY
 
 
