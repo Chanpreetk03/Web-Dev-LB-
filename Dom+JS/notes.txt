@@ -114,4 +114,45 @@ etc
 
 
 
+*********
+
+
+
+BROWSER EVENTS
+if we write the code as we have written before it'll be executed as soon as the page gets loaded.
+But sometimes we want some events to execute after a certain event.
+Events are:clicking,scrolling , resizing, everything being loaded on browser
+
+-WHAT ARE EVENTS?
+
+browser is announcing that something has happened is called browser events.
+Generally, the world of events is invisible. so to see them we have a method called monitor events.
+
+As soon as an event occurs, it gives us a msg about it.
+monitorEvent(document)
+
+to turn-off this unmonitorEvents
+in forms, we have an action button, which tells us what to do when clicked or filled.
+
+-WHAT IS EVENT LISTENER?
+
+in c++ and java you have classes which is a blueprint of objects.
+
+interface is like blueprint here.
+
+event target :is a type of interface, implemented by objects that can receive events and may have listeners for them.
+
+The action after the event is defined by listener.
+
+event target can: addEventListener, removeEventListener, dispatchEvent
+
+This is a top level entity interface.
+A node inherits from event target, jo bhi methods and properties event target ke pass hongi wo node bhi inherit kar lega aur node se element inherit kar lega. the element will aslo inherit the properties of Node which are not there in event target.
+
+eventTarget--->Node--->element
+
+
+
+
+
 
