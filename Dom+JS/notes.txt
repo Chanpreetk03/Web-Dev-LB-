@@ -1,0 +1,117 @@
+DOM+ MODERN JS
+
+
+
+CLASS-1
+
+->Window: window is an object(global) created by browser. It represents the browser window.
+DOM, BOM, Js core functions lie under this.
+its a top level entity. 
+window.console.log() same as :console.log
+
+->DOM: Document Object Model: we convert all the html code to JS object which we call Document. 
+
+->BOM: It allows js to talk to browser about matters other than content of page. alert box are also a way to communicate to browser.
+Browser Object Model, history,location,screen
+
+DOM:
+
+DOCUMENT OBJECT MODEL
+its a tree like structure, the first is root which has children which further have children
+this is a basic structure of html file:
+<html>
+<head></head>
+<body></body>
+</html>
+
+everything in <> becomes tags. these are made tags by tokenizer
+these tokens are then converted to nodes by process and now your dom is ready.
+
+character-->tags-->token--(tokenizer)-->nodes
+
+head is child of html node 
+head is parent of title node.
+to change an element we have to fetch it and store it. to do that one of the methods is
+method : getElementbyId: returns the element with this id
+getElementsbyClassName: for getting class(returns array like object for all elements) we get an html collection
+.getElementsbyTagName:like class one but for tags
+
+Things to keep in mind for class and tag:
+1)they work on Document method
+2)they return multiple items
+3)they return html collection not array
+
+$0:its a trick for inspect if you hover on an element and write this in console you get there name.
+
+We also have another selector: query selector.
+querySelector("#header") : will get an object with this id
+querySelector(".header"): will bring a single object of this class
+querySelector("header"):the first element with this tag.
+
+it always returns a single output, if there are multiple elements it returns the first one.
+
+if we want multiple objects in return we use .querySelectorAll
+
+
+If we want to update existing content 
+.innerHTML: get/set (gets an element/gets all the descendants under it)(it can also push)
+.outerHTML:
+.textContent:(get/set your text)
+.innerText:(get/set your text)
+
+the difference between innerHTML and text content if you write the contents in innerHTML the tags get rendered and in textContent they are treated as text.
+and if the display is hidden, that part wont be visible in innerHTML but will be in textContent
+
+->ADDING NEW ELEMENT/CONTENT 
+.createElement();
+content.appendChild(newChild);
+
+this gets appended at the end.
+
+-HOW TO CREATE TEXT NODE 
+let newPara=document.createElement("p");
+
+let textPara=document.createTextNode("new boyi");
+newPara=appendChild(textPara);
+content.appendChild(newPara);
+
+now we have added the content
+
+another and better way is:
+let myPara=document.createElement('p');
+myPara.textContent="i am new para";
+content.appendChild(myPara);
+
+what if we want to position element added?
+
+.innerAdjacentHTML()
+it has to be called 2 arguments.
+1st:where?
+2nd:what?
+
+beforebegin(previous sibling)
+afterbegin(as 1st child)
+beforeend(last child)
+afterend(next sibling)
+
+-Remove
+condition:we need to know the parent element
+and which element to remove.
+
+NOW HOW TO MAKE CHANGES IN CSS 
+.style()
+.cssText
+.setAttribute
+.className 
+.classList(add , remove , toggle , contain)
+
+You can only modify one propeerty using: .style.color etc 
+
+to change multiple things:
+.style.cssText="color:green; backgroundcolor:yellow;'
+etc
+
+
+
+
+
