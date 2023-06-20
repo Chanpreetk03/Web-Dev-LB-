@@ -146,13 +146,34 @@ The action after the event is defined by listener.
 
 event target can: addEventListener, removeEventListener, dispatchEvent
 
-This is a top level entity interface.
-A node inherits from event target, jo bhi methods and properties event target ke pass hongi wo node bhi inherit kar lega aur node se element inherit kar lega. the element will aslo inherit the properties of Node which are not there in event target.
+This is a top level entity interface, document comes under it. Window is global obj and this is interface
+A node inherits from event target, jo bhi methods and properties event target ke pass hongi wo node bhi inherit kar lega aur node se element inherit kar lega. the element will als o inherit the properties of Node which are not there in event target.
 
 eventTarget--->Node--->element
 
+-->.addEventListener():
+you are applying a listener on an event. it listens/responds to event 
+or hook into event.
 
+<eventTarget>.addEventListener(<event to listen for> , <function if the event happens>)
 
+so you need 3 things:
+1)event target : on which component do you want to apply listen to.(document , para, article etc)
+2)event type: click,double click, scroll 
+3)function: what to do when event happens.
 
+== allows type coercion (js will try to convert the items being compared to same type).
+=== doesn't allow this.
 
+function passed in addEventListener, so to use removeEventListener we have to pass the exact same function
 
+We can only remove event listener when we make another 
+So removeEventListener will work only when:
+1)same eventTarget
+2)same event
+3)same function
+
+PHASES OF AN EVENT 
+-capturing PHASES
+-at target PHASES
+-bubbling PHASES
