@@ -249,7 +249,7 @@ clg("yo again");
 
 
 what happens is first the line 244 goes to call stack gets executed and comes out of stack
-then line 246 goes to call stack and then it informs browset about the functions and leaves
+then line 246 goes to call stack and then it informs browser about the functions and leaves
 then line 248 is executed
 
 and then if we click anywhere the event goes to event queue and is then executed when the call stack is empty.
@@ -269,7 +269,7 @@ setTimeout(function(){
     clg("hi");
 },4000ms)
 
-this is async function and 4000 mili seconds is the minimum time for this function to execute
+this is async function and 4000 milli seconds is the minimum time for this function to execute
 
 2 parameters: function to be executed and the minimum time after it should be executed.
 a call to set setTimeout function gives a call back function to browser.
@@ -310,7 +310,7 @@ blocking: clg not slow
 image processing is slow 
 every thing that is slow is blocking
 
-multi-threade:ruby
+multi-threaded ruby
 
 why is this a problem? because we are running code in browser
 
@@ -331,8 +331,35 @@ CLASS - 4
 PROMISES ASYNC AWAIT FETCH API 
 
 synchronous: occurs at the same time line by line
-asynchronous code: it will be performed but dont know when
+asynchronous code: it will be performed but don't know when
 this uses event loop
 
 JS is a single threaded language
-concurancy is handled by event loop
+concurrency is handled by event loop
+
+API: application programming interface.
+api is something whose job is to establish a communication link between two parts of code.
+
+features of Async code:
+-clean and concise
+-better error handling
+-easier debugging
+
+Promises:
+either it will be fulfilled or it wont.
+this is used for parallel execute in background.
+
+the promise object represents the eventual completion (or faliure) of an async operation and the resulting value.
+
+Promise - successful
+        |- faliure 
+we can use a method on promise then() used when w get a value.
+and catch() used when we get a error.
+
+Promise is nothing but a task which we want to do
+For eg you were doing some code and send a network request
+
+Fetch API:
+
+lets we wanna send or recieve data from network there we use fetch api 
+
