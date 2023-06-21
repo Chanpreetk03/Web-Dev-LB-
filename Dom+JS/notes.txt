@@ -174,6 +174,41 @@ So removeEventListener will work only when:
 3)same function
 
 PHASES OF AN EVENT 
--capturing PHASES
--at target PHASES
--bubbling PHASES
+-capturing PHASES(here you look for the element on which you want to apply it)
+-at target PHASES(as soon as you find it)
+-bubbling PHASES(then they go back)
+
+By default addEventListener is executed in bubbling phase.
+we can apply it in capturing phase using true as the 3rd argument.
+It can be changed by using the third argument in the above
+
+Can it also be applied at target phase?
+
+THE EVENT OBJECT 
+browser sends the event 
+it has three phases.
+
+When an event occurs, the addEventListener gets an event object which has a lot of info.
+
+AVOID TOO MANY EVENTS
+
+HOW TO FILTER OUT THE TAGS ON WHICH WE DONT WANT TO  HAVE THE EVENT LISTENER
+
+
+
+
+
+*****
+
+
+
+CLASS - 3
+
+ 
+
+PERFORMANCE
+
+how to measure the speed of code?
+how to write efficient and performing code?
+Event loop
+
