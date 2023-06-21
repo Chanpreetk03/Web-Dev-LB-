@@ -212,3 +212,88 @@ how to measure the speed of code?
 how to write efficient and performing code?
 Event loop
 
+standard way to measure how long you code takes to run 
+
+performance.now() : this is very accurate function. 
+
+In the code we start add a para which updates our dom
+
+reflow:basically whenever we add a element we do some mathematical calcs this process is called reflow(process of calculating the dimensions and position of element. this is a computational task)
+repaint: to show the new element pixel by pixel is called re paint
+process of drawing pixels to the screen(faster than reflow)
+So the major way to optimize our code is to lessen the number of reflows and repaints
+
+DOCUMENT FRAGMENT: light weight document object but when you add the elements to it the there are 0 reflows and repaints as the elements are not being added to dom. the reflow and repaint will happen whn we add this fragment to our DOM.
+
+THE CALL STACK
+
+single threading: one command at a time
+js is a single threaded language.
+
+JS has run to completion nature of code.
+JS doesn't execute at the same time.
+
+EVENT LOOP:
+
+call stack 
+browser
+event queue
+
+for example:
+
+clg("yo");
+
+document.addEventListener("click" , function(){});
+
+clg("yo again");
+
+
+what happens is first the line 244 goes to call stack gets executed and comes out of stack
+then line 246 goes to call stack and then it informs browset about the functions and leaves
+then line 248 is executed
+
+and then if we click anywhere the event goes to event queue and is then executed when the call stack is empty.
+meaning if there is a syncronous execution going on the event wont be executed instantly
+
+philip robert: what the heck is event loop?
+
+also check out loupe.
+
+async code uses:
+1)js event loop
+2)any async code is handled by browser
+3)whenever call stack is empty the async moves from queue to stack
+
+setTimeout()
+setTimeout(function(){
+    clg("hi");
+},4000ms)
+
+this is async function and 4000 mili seconds is the minimum time for this function to execute
+
+2 parameters: function to be executed and the minimum time after it should be executed.
+a call to set setTimeout function gives a call back function to browser.
+
+what happens when:
+
+setTimeout(function(){
+
+},0);
+
+
+this will not run immediately
+whenever you are try to defer something until the stack is clear(taalne ki koshish) we can use this 
+
+
+
+*********
+
+
+CLASS - 4
+
+
+PROMISES ASYNC AWAIT FETCH API 
+
+synchronous: occurs at the same time line by line
+asynchronous code: it will be performed but dont know when
+this uses event loop
