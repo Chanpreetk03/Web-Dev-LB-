@@ -286,6 +286,42 @@ whenever you are try to defer something until the stack is clear(taalne ki koshi
 
 
 
+********
+
+Robert philip
+
+What is js?
+a single threaded, non-blocking , asynchronous concurrent language 
+I have a call stack event loop and some api stuff
+I have a call stack and heap
+
+the call stack: one thread===one call stack===one thing at a time
+call stack is a data structure which maintains where we are in code.
+blowing the stack:
+
+function foo(){
+    return foo();
+}
+
+foo();
+
+What happens when things are slow
+blocking: clg not slow
+image processing is slow 
+every thing that is slow is blocking
+
+multi-threade:ruby
+
+why is this a problem? because we are running code in browser
+
+So we use async callbacks
+
+Concurrency and event loop?
+one thing at a time except not really
+
+
+
+
 *********
 
 
@@ -297,3 +333,6 @@ PROMISES ASYNC AWAIT FETCH API
 synchronous: occurs at the same time line by line
 asynchronous code: it will be performed but dont know when
 this uses event loop
+
+JS is a single threaded language
+concurancy is handled by event loop
