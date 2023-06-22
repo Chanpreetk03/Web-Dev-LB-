@@ -367,3 +367,30 @@ for fetch apis you need url
 JSON: js object notation
 syntax:same as object
 
+async function always returns a promise
+to use await you have to be in async
+fetch api also returns a promise
+
+so when we retrieve data from fetch api 
+
+whenever we use fetch we can send 2 things:
+fetch(url, options) 
+
+options include: secret keys
+
+fetch(url,{
+    header:{
+        authentication:secret key
+    }
+} )
+
+for post call we will have to customize our options part such that it becomes a post request
+
+Promise chaining
+
+
+CLOSURE:
+its a top level entity containting the function logic and all the lexical states in it. nested functions have closure which have reference not copy.
+
+
+
