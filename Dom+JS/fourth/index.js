@@ -58,3 +58,4 @@ wada1.then(()=>{
     return wada2;
 }).then((value)=>{console.log(value)});
 
+

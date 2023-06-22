@@ -363,3 +363,7 @@ Fetch API:
 
 lets we wanna send or recieve data from network there we use fetch api 
 
+for fetch apis you need url
+JSON: js object notation
+syntax:same as object
+
