@@ -1,0 +1,70 @@
+REACT BASICS 
+
+
+CLASS-1
+
+What is a react?
+its a js library whose sole purpose is to create ui.
+what are the functionalities that can be envoked?
+
+React is all about components:
+it has component based architecture.
+
+what is components? reuseable piece of code (like function)
+
+an website has many parts:header footer navbar hero section etc
+Imperetive approach: step by step line by line
+(more code more details) normal js 
+
+declarative approach: react only needs end state.
+spa approach: single page approach.
+only single page is shown after all that the work is donr dynamically.
+   
+alternatives of react? angular vue
+
+core syntax and setup
+jsx
+component
+flow
+
+components: 
+
+
+jsx file: js xml file
+html code inside js file
+
+npm start converts the react code to browser friendly code
+
+props can be used for sending data and event handling
+
+<button onClick={clickHandler}>add</button>
+u dont write () infront of the function in this props
+
+react renders the dom single time.
+so if we simply change some value after rendering it we also have to repaint the ui
+
+to do this we have to use the concept of state.
+
+it renders the ui again after changing it.
+
+react hook: utility function which can do different things
+
+const[valueItWillUpdateTO,setTitle]=useState(initial_value);
+
+u click-> onClick->clickHandler->setTitle->(title change and re render)->"POPCORN"(title)
+All the components are separate entities
+
+useState returns an array of two elements
+
+When react re-renders the component then, the functions are re-created (new scopes are created) that DO NOT HAVE ANY LINK WITH THE PREVIOUS FUNCTIONS (with the previous scopes) created in a previous render
+
+setTitle is imediate or scheduled?
+
+if you have data which might change and to reflect it in ui u have to use useState. the change is per component instance basis (har component ka separate hai)
+
+addEventListner= onClick 
+reflect any change in UI use useState
+
+parents to child : props
+child to parents : also props (props functions) lifting up 
+
