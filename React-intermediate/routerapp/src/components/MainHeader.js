@@ -5,6 +5,6 @@ export default function Home(){
     return(
         <div>
         <Outlet/>
-        this is home</div>
+        </div>
     )
 }

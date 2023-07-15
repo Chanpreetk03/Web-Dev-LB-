@@ -27,3 +27,28 @@ so for this we install react router dom
 browser router tag: it links the routes to all the pages
 route:(path) 
 routing means to tell the path to reach a page
+navlink is better than link as it adds a class active whenever its clicked 
+
+here home is /
+about is /about
+support /support
+labs /labs
+
+now we can say that home is parent route and so we can also do nested routing
+if you just cut the / and put rout at end
+home element wont let other be rendered
+this can changed by outlet in home.js
+
+but even then the print would be
+this is support
+this is home
+
+the 2nd line is not needed
+
+one way is to fix this is to remove the stuff from home.js
+the better way is to create a new component called main header.js
+
+and create a default rout (it wont have a path in the component)
+
+useNavigate hook
+
