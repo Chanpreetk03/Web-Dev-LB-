@@ -68,3 +68,16 @@ reflect any change in UI use useState
 parents to child : props
 child to parents : also props (props functions) lifting up 
 
+useEffect hook
+an action performed on an component and there are side effects on another component(other than which the action was done)
+it allows the component to handle side effects
+
+when the component is rendered it starts the code.
+
+Class based components: components did mount, components did update, components did unmount
+
+useEffect(()=>{
+
+},[name]): it will work on the first change or whenever the array is executed, here the array after callback func is dependency list ans name is the dependency
+
+4 variations of useEffect hook
