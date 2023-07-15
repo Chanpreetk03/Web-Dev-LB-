@@ -1,0 +1,8 @@
+React
+
+
+class 1
+
+How to make forms in React
+in react we use hook to accumulate the data we just have to send the data to api.
+
