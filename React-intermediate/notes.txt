@@ -22,3 +22,8 @@ so to navigate between different pages we use react router.
 
 same page pe different component  
 so for this we install react router dom
+
+
+browser router tag: it links the routes to all the pages
+route:(path) 
+routing means to tell the path to reach a page
