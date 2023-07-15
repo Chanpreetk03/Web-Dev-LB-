@@ -6,3 +6,19 @@ class 1
 How to make forms in React
 in react we use hook to accumulate the data we just have to send the data to api.
 
+Controlled components:
+whole data is being tracked in form data
+
+
+
+
+REACT ROUTER
+what is react router?
+jab aap navigation karna chahte ho without reload
+as react is spa we change the same page dynamically.
+we have single html file. usi mein dynamically changes
+
+so to navigate between different pages we use react router.
+
+same page pe different component  
+so for this we install react router dom
