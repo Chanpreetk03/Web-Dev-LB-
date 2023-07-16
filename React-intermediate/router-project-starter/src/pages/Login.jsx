@@ -1,6 +1,6 @@
-import Template from "../components/Auth/Template";
+import Template from "../components/Template";
 import loginImg from "../assets/login.png";
-
+import React from "react";
 function Login({ setIsLoggedIn }) {
   return (
     <Template
@@ -8,7 +8,7 @@ function Login({ setIsLoggedIn }) {
       description1="Build skills for today, tomorrow, and beyond."
       description2="Education to future-proof your career."
       image={loginImg}
-      formType="login"
+      formtype="login"
       setIsLoggedIn={setIsLoggedIn}
     />
   );
