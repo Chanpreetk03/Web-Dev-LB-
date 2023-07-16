@@ -48,7 +48,7 @@ the 2nd line is not needed
 one way is to fix this is to remove the stuff from home.js
 the better way is to create a new component called main header.js
 
-and create a default rout (it wont have a path in the component)
+and create a default route (it wont have a path in the component)
 
 useNavigate hook
 
