@@ -1,0 +1,38 @@
+BACKEND
+
+What is backend?
+you have two entities named fronted (the ui and beauty of the site) , Backend(engine all brain)
+
+User interacts with fronted and fronted interacts with backend. 
+
+Lets say u have fb messenger app and you have a link in it.
+
+What happens when you click it?
+Here a http request goes(hyper text transfer protocol).
+So we can use http in client server interaction
+its a standard way of contacting between client and server on internet.
+
+Computer networking explains http 
+
+when you click on the link the os decides what to do?
+the link will be given to on your default browser. 
+But chrome doesnt know what this link is. It needs an IP address.
+(domain name resolution)  Ip address of server on which the site is hosted
+
+server ka http pta hai port number pta hai
+
+We can connection establish / TCP connection /Encryption / Handshake
+then you have a get request 
+
+In http request we have major 4 types of request:
+-get (retrieves/fetches data)
+-put (update data)
+-post (submitting new data)
+-delete (removing data)
+
+Creating our own server using express (framework used to create server side application)
+
+create a folder :
+run npm init -y in that folder
+
+
