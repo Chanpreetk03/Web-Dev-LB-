@@ -1,0 +1,44 @@
+class 1
+
+hooks are utility functions: useState, useEffect,useNavigate
+
+can you create your own hooks?
+yes we can
+
+random gif generator
+
+class 2
+
+context api and state manegment
+
+prop drilling state lifting(prop functions)
+we can create a context at app.js level all the children can access it without drilling or lifting
+
+rules to use when using context api
+1)create a context (data at a particular instant of time)
+which data has to be consumed?
+loading state variable , page data , total pages , current page ,current page number
+
+2)provide 
+
+3)consume using usecontext hook 
+
+url for pages:
+1) 
+
+
+redux and state manegment
+
+need for redux?
+consider you have an hirearchy of components
+so to communicate we did prop drilling and state lifting so we used useContext and context api which created a centralised store and all the layers can communicate easily.
+
+We have another way called redux its a library used for state manegment
+Here also you will have a global state for interation but this also has the concept of slices
+We can create slices which stores info 
+
+global store has all data
+this store is made by combination of portions of data(a portion of data:slices) 
+
+we use redux toolkit
+
