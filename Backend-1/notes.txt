@@ -35,4 +35,14 @@ Creating our own server using express (framework used to create server side appl
 create a folder :
 run npm init -y in that folder
 
+middleware
+
+
+MongoDb: no sql dbms
+
+Folder structure:
+index.js : has all logics
+
+routes(folder): all routes
+
 
