@@ -18,7 +18,7 @@ exports.getTodo = async (req, res) => {
 	}
 }
 
-exports.getTodoByTd = async (req, res) => {
+exports.getTodoById = async (req, res) => {
 	try {
 		const id = req.params.id
 		const todo = await Todo.findById({ _id: id })

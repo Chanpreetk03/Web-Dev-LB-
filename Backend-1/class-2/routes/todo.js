@@ -3,7 +3,7 @@ const router=express.Router();
 
 const {createTodo}=require("../controllers/createTodo")
 const {getTodo}=require("../controllers/getTodo")
-const {getTodoById}=require("../controllers/getTodoById")
+const {getTodoById}=require("../controllers/getTodo")
 const {updateTodo}=require("../controllers/updateTodo");
 const {deleteTodo}=require("../controllers/deleteTodo");
 
