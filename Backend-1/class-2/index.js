@@ -17,7 +17,7 @@ app.listen(PORT , ()=>{
 })
 
 //connect to db
-const dbConnect=require("./config/database");
+
 dbConnect();
 
 //default route
