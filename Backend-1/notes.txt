@@ -46,3 +46,4 @@ index.js : has all logics
 routes(folder): all routes
 
 
+local host can also be written as :127.0.0.1
