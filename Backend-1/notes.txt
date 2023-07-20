@@ -83,3 +83,20 @@ addition of sub application
 
 MVC
 
+
+BACKEND - 2
+CLASS 1 
+
+authentication and authorization
+
+you login to codehelp
+either you have a course or you haven't 
+if you have it you will be able to see dashboard with course details
+and the other wont be able to see the details
+The admin dashboard are also different
+
+authentication means identity verification 
+authorization deals with access rights and permissions
+
+
+
