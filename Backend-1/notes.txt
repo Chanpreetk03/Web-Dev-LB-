@@ -98,5 +98,10 @@ The admin dashboard are also different
 authentication means identity verification 
 authorization deals with access rights and permissions
 
+JWT tokens:
+
+Cookies: 
+
+Both are ways with which we do authentication ad authorization
 
 
