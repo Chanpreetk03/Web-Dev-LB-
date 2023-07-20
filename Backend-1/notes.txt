@@ -47,3 +47,39 @@ routes(folder): all routes
 
 
 local host can also be written as :127.0.0.1
+
+Class 3
+blog site backend
+
+Class 4
+
+how internet works?
+www.google.com 
+
+client server model : client always needs anything(requests) , server sends response
+
+client sends requests to server which in turn sends data as response
+user wrote url : which is converted to address done by domain name resolution (DNR) user ki machine pe data aagya
+what is express?
+framework v/s libraries
+
+tools in backed:
+express 
+MongoDb
+mongoose
+
+Create application
+1)create folder
+2)open terminal and cd to the folder
+3)npm init (--y if you dont want to answer the ques) 
+4)create app/index.js
+5)npm i express
+
+Routes : explain the type of requests.
+get , post , put etc 
+
+Mounting
+addition of sub application
+
+MVC
+
